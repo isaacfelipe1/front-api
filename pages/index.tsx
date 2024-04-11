@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { fetchBooks } from '../src/api';
 import Navbar from '../components/Navbar';
-import styles from '../styles/homepage.module.css';
+import styles from '../styles/novolivro.module.css';
 
 interface Livro {
   id: number;
@@ -10,7 +10,6 @@ interface Livro {
   editora: string;
   anoPublicacao: number;
 }
-
 const HomePage: React.FC = () => {
   const [books, setBooks] = useState<Livro[]>([]);
 
@@ -41,5 +40,4 @@ const HomePage: React.FC = () => {
     </div>
   );
 };
-
 export default HomePage;

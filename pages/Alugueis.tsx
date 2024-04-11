@@ -17,7 +17,6 @@ interface Aluguel {
     anoPublicacao: number;
   };
 }
-
 const Alugueis: React.FC = () => {
   const [alugueis, setAlugueis] = useState<Aluguel[]>([]);
   const [loading, setLoading] = useState(true);
