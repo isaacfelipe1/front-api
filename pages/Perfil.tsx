@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import { getUserDetails } from '../src/Usuario';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar';
 
 interface Usuario {
   id: number;

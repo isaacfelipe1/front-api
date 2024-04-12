@@ -104,12 +104,12 @@ const Navbar: React.FC = () => {
           </div>
         </li>
         <li className={styles.navItem}>
-          <Link href="/Perfil" className={styles.navLink}>
+          <Link href="/perfil" className={styles.navLink}>
             <div className={styles.navLink}>PERFIL</div>
           </Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="/Login" className={styles.navLink}>
+          <Link href="/login" className={styles.navLink}>
             <div className={styles.navLink}>SAIR</div>
           </Link>
         </li>

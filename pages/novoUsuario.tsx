@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { createUsuario } from '../src/Usuario';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar';
 import styles from '../styles/novolivro.module.css';
 const NovoUsuario: React.FC = () => {
   const [nome, setNome] = useState('');

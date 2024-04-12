@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { fetchBookDetails, updateBook } from '../../../src/api'; 
-import Navbar from '../../../components/Navbar';
+import Navbar from '../../../components/navbar';
 import styles from '../../../styles/detalheslivro.module.css';
 interface Livro {
   id: number;

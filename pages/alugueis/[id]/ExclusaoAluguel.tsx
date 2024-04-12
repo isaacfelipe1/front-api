@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import { fetchAluguelDetails, deleteAluguel } from '../../../src/Aluguel';
-import Navbar from '../../../components/Navbar';
+import Navbar from '../../../components/navbar';
 import styles from '../../../styles/detalheslivro.module.css';
 
 interface Aluguel {

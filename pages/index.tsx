@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { fetchBooks } from '../src/api';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar';
 import styles from '../styles/novolivro.module.css';
 
 interface Livro {

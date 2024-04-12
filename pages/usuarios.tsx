@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { fetchUsuarios } from '../src/Usuario';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar';
 
 interface Usuario {
   id: number;

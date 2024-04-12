@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { useState } from 'react';
 import { fetchBookDetails, deleteBook } from '../../../src/api';
-import Navbar from '../../../components/Navbar';
+import Navbar from '../../../components/navbar';
 import styles from '../../../styles/detalheslivro.module.css';
 
 

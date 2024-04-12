@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar';
 import styles from '../styles/novolivro.module.css';
 
 const NovoLivro: React.FC = () => {

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { loginUser } from '../src/Auth';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar';
 import styles from '../styles/novolivro.module.css';
 const Login: React.FC = () => {
   const router = useRouter();
@@ -11,6 +11,7 @@ const Login: React.FC = () => {
 
   const handleLogin = async () => {
     try {
+      
       const response = await loginUser({ email, senha });
 
       if (response.status === 'success') {

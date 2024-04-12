@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { createAluguel } from '../src/Aluguel'; // Ajuste o caminho conforme necessário
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar';
 import styles from '../styles/novolivro.module.css';
 interface CreateAluguelProps {
   livroId: number;
