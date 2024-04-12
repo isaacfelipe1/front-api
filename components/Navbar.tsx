@@ -87,7 +87,7 @@ const Navbar: React.FC = () => {
               </li>
               <li>
                 <Link href="/alugueis/[id]/edicaoAluguel" as="/alugueis/dummyId/edicaoAluguel">
-                  <div className={styles.navLink}>Editar Aluguel Por ID</div>
+                  <div className={styles.navLink}>Editar Aluguel PorID</div>
                 </Link>
               </li>
               <li>
